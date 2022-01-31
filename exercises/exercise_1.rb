@@ -3,7 +3,6 @@ require_relative '../setup'
 puts "Exercise 1"
 puts "----------"
 
-# Your code goes below here ...
 # Exercise 1: Create 3 stores
 
 # 1. Use Active Record's `create` class method multiple times to create 3 stores in the database:
