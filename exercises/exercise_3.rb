@@ -11,9 +11,13 @@ puts "----------"
 # 2. Using Active Record's `destroy` method, delete the store from the database.
 # 3. Verify that the store has been deleted by again outputting (`puts`ing) the `count` (as you did in Exercise 1.)
 
+#-------------------------------------------------------------------------------
+
 puts "Store Count Before: #{Store.count}"
 
 @store3 = Store.find_by(id: 3)
 @store3.destroy
 
 puts "Store Count After : #{Store.count}"
+
+#-------------------------------------------------------------------------------
