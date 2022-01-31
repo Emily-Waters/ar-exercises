@@ -20,3 +20,5 @@ puts "Store Count Before: #{Store.count}"
 puts "Store Count After : #{Store.count}"
 
 #-------------------------------------------------------------------------------
+
+puts "----------"

@@ -4,7 +4,7 @@ require_relative 'lib/store'
 require_relative 'lib/employee'
 
 # Output messages from Active Record to standard out
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+# ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 puts 'Establishing connection to database ...'
 ActiveRecord::Base.establish_connection(

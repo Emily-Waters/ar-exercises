@@ -21,32 +21,34 @@ puts "----------"
 
 #-------------------------------------------------------------------------------
 
-@store1.employees.create(first_name: "Bob", last_name: "Loblaw", hourly_rate: 15)
-@store1.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 16)
-@store1.employees.create(first_name: "Jane", last_name: "Doe", hourly_rate: 20)
+@store1.employees.create(first_name: "Bob", last_name: "Loblaw", hourly_rate: 45)
+@store1.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 40)
+@store1.employees.create(first_name: "Jane", last_name: "Doe", hourly_rate: 55)
 
 #-------------------------------------------------------------------------------
 
-@store2.employees.create(first_name: "Sally", last_name: "Loblaw", hourly_rate: 15)
-@store2.employees.create(first_name: "Esther", last_name: "Smith", hourly_rate: 16)
-@store2.employees.create(first_name: "Frank", last_name: "Doe", hourly_rate: 20)
+@store2.employees.create(first_name: "Sally", last_name: "Loblaw", hourly_rate: 45)
+@store2.employees.create(first_name: "Esther", last_name: "Smith", hourly_rate: 55)
+@store2.employees.create(first_name: "Frank", last_name: "Doe", hourly_rate: 80)
 
 #-------------------------------------------------------------------------------
 
-@store3.employees.create(first_name: "Abraham", last_name: "Washington", hourly_rate: 12)
-@store3.employees.create(first_name: "Chris", last_name: "Ball", hourly_rate: 24)
-@store3.employees.create(first_name: "Bella", last_name: "Twilight", hourly_rate: 13)
+@store3.employees.create(first_name: "Abraham", last_name: "Washington", hourly_rate: 200)
+@store3.employees.create(first_name: "Chris", last_name: "Ball", hourly_rate: 100)
+@store3.employees.create(first_name: "Bella", last_name: "Twilight", hourly_rate: 150)
 
 #-------------------------------------------------------------------------------
 
-@store4.employees.create(first_name: "Jake", last_name: "Sisko", hourly_rate: 16)
-@store4.employees.create(first_name: "Alex", last_name: "The Great", hourly_rate: 19)
-@store4.employees.create(first_name: "Morgan", last_name: "Freewoman", hourly_rate: 15)
+@store4.employees.create(first_name: "Jake", last_name: "Sisko", hourly_rate: 45)
+@store4.employees.create(first_name: "Alex", last_name: "The Great", hourly_rate: 55)
+@store4.employees.create(first_name: "Morgan", last_name: "Freewoman", hourly_rate: 65)
 
 #-------------------------------------------------------------------------------
 
-@store5.employees.create(first_name: "Paul", last_name: "McCartney", hourly_rate: 20)
-@store5.employees.create(first_name: "Ringo", last_name: "Starr", hourly_rate: 17)
-@store5.employees.create(first_name: "George", last_name: "Harrison", hourly_rate: 25)
+@store5.employees.create(first_name: "Paul", last_name: "McCartney", hourly_rate: 75)
+@store5.employees.create(first_name: "Ringo", last_name: "Starr", hourly_rate: 85)
+@store5.employees.create(first_name: "George", last_name: "Harrison", hourly_rate: 95)
 
 #-------------------------------------------------------------------------------
+
+puts "----------"

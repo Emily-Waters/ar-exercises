@@ -26,3 +26,5 @@ puts "Average Sales For All Stores: #{Store.average(:annual_revenue)}"
 puts "Stores With Sales Greater Than $1mil: #{Store.where('annual_revenue >= 1000000').count}"
 
 #-------------------------------------------------------------------------------
+
+puts "----------"

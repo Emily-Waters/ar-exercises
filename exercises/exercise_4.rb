@@ -39,5 +39,8 @@ puts "Stores in db: #{Store.count}"
 @womens_stores = Store.where("womens_apparel = ? AND annual_revenue >= ?", true,1000000)
 
 @womens_stores.each { |s| puts "Name: #{s.name}#{" ".* 10 - s.name.length}|  Annual Revenue: #{s.annual_revenue}"}
+puts "----------"
 
 #-------------------------------------------------------------------------------
+
+puts "----------"
