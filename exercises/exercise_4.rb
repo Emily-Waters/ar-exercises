@@ -20,11 +20,11 @@ puts "----------"
 
 #-------------------------------------------------------------------------------
 
-Store.create(name: 'Surrey', annual_revenue: 224000, mens_apparel:false, womens_apparel:true)
+@store3 = Store.create(name: 'Surrey', annual_revenue: 224000, mens_apparel:false, womens_apparel:true)
 
-Store.create(name: 'Whistler', annual_revenue: 1900000, mens_apparel:true, womens_apparel:false)
+@store4 = Store.create(name: 'Whistler', annual_revenue: 1900000, mens_apparel:true, womens_apparel:false)
 
-Store.create(name: 'Yaletown', annual_revenue: 430000, mens_apparel:true, womens_apparel:true)
+@store5 = Store.create(name: 'Yaletown', annual_revenue: 430000, mens_apparel:true, womens_apparel:true)
 
 puts "Stores in db: #{Store.count}"
 
