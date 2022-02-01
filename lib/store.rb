@@ -1,5 +1,6 @@
 class Store < ActiveRecord::Base
   has_many :employees
+  validates_associated :employees
   validates :name, presence: true, length:{ minimum: 3 }
   validates :annual_revenue,  numericality: { only_integer: true, greater_than: 0 }
   validate :men_or_womens_apparel
